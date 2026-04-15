@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cloud Chat App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Cloud Chat App</h2>
+
+<div id="auth">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="signup()">Sign Up</button>
+    <button onclick="login()">Login</button>
+</div>
+
+<div id="chat" style="display:none;">
+    <div id="messages"></div>
+    <input type="text" id="messageInput" placeholder="Type message">
+    <button onclick="sendMessage()">Send</button>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
